@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "iansbettervanilla",
 	"version": "${version}",
-	"name": "Ian'sBetterVanilla",
+	"name": "IansBetterVanilla",
 	"description": "This is a mod that consists of Ian's better minecraft features.",
 	"authors": [
 		"Ian"
