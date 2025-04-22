@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "iansbettervanilla",
+	"version": "${version}",
+	"name": "Ian'sBetterVanilla",
+	"description": "This is a mod that consists of Ian's better minecraft features.",
+	"authors": [
+		"Ian"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/iansbettervanilla/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ian.bettervanilla.IansBetterVanilla"
+		],
+		"fabric-datagen": [
+			"net.ian.bettervanilla.IansBetterVanillaDataGenerator"
+		],
+		"client": [
+			"net.ian.bettervanilla.IansBetterVanillaClient"
+		]
+	},
+	"mixins": [
+		"iansbettervanilla.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
